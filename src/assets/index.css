@@ -1,0 +1,38 @@
+body, main{
+    margin:0;
+    padding: 0;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #515151 #797979;
+}
+  
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: #797979;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #515151;
+    border-radius: 20px;
+    border: 3px solid #797979;
+}
+
+a.nav-link{
+    color: #000;
+}
+
+.nav-item a.nav-link.active{
+    background-color: rgba(128, 128, 128, 0.5);
+    color : #000
+}
+
+.form-control:focus {
+    color: rgb(81, 81, 81);
+    background-color: #fff;
+    border-color: #515151;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgb(81, 81, 81, .25);
+}

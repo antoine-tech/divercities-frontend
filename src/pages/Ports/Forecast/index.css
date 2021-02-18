@@ -1,0 +1,9 @@
+.bg-grey:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.bg-grey {
+    background-color: rgba(255, 255, 255, .2);
+    width: 20rem;
+    height: 30rem;
+}

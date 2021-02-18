@@ -1,0 +1,10 @@
+.rc-slider-track {
+    background-color: #FFF;
+}
+.rc-slider-dot-active {
+    border-color: #282828;
+    background-color: #282828;
+}
+.rc-slider-mark{
+    display: none;
+}

@@ -1,0 +1,8 @@
+.badge-brand {
+    background-color: #515151;
+    cursor: pointer;
+}
+
+.badge-brand.active {
+    background-color: #282828;
+}

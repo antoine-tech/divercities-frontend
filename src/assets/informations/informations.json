@@ -1,0 +1,47 @@
+{
+    "/": [
+        "Bienvenue sur le site web de Divercities, plateforme web réalisé dans le cadre du HACKAVIZ Marseille 2020. Ce projet à été réalisé par 4 étudiants : Vladimir, Gregory, Ming Ming et Antoine"
+    ],
+    "/ports": [
+        "Cette carte met en évidence les relations entre le port de Marseille et le monde. Les arcs représentent les trajets du point de départ (en vert) au point d'arrivée (en rouge). Il est possible d’afficher des informations relatives à ces trajets : continent du port précédent : provenance des navire arrivant au port de Marseille continent du port suivant : destination des navires partant du port de Marseille continent des ports en relation : affichage régional des ports en relation avec le port de Marseille"
+    ],
+    "ports/merchandises/relations": [
+        "Ce graphique met en évidence l’importance de chaque port dans ses échanges avec le port de Marseille. Plus la tranche d’un port est importante, plus il y a eu d'échanges. A gauche, on trouve les ports de provenance des navires. A droite, on trouve les ports de destination des navires."
+    ],
+    "ports/merchandises/importations": [
+        "Chaque pays possède une part différente dans les importations du port de Marseille-Fos représenté sur ce graphique. On peut cliquer sur chaque pays pour observer le détail des produits importés transitant par Marseille-Fos en provenance de ce pays. La part de chaque pays dans les échanges peut être identifiée par la masse totale des produits transportés (en kg) ou par leur valeur marchande (en €)."
+    ],
+    "ports/merchandises/exportations": [
+        "Chaque pays possède une part différente dans les exportations du port de Marseille-Fos représenté sur ce graphique. On peut cliquer sur chaque pays pour observer le détail des produits exportés depuis Marseille-Fos."
+    ],
+    "ports/merchandises/goods/out": [
+        "Part de chaque type de marchandise dans les exports transitant par Marseille-Fos, avec: Number of containers : nombre de conteneurs, Liquid bulk : vrac liquide  General cargo : marchandises diverses, Dry bulk : vrac sec, Number of Ro-Ro units : Nombre d’unités Roll-on/Roll-off"
+    ],
+    "ports/merchandises/goods/in": [
+        "Part de chaque type de marchandise dans les imports transitant par Marseille-Fos, avec: Number of containers : nombre de conteneurs, Liquid bulk : vrac liquide, General cargo : marchandises diverses, Dry bulk : vrac sec, Number of Ro-Ro units : Nombre d’unités Roll-on/Roll-off"
+    ],
+    "ports/merchandises/evolution/goods-in-out": [
+        "Ce graphique met en évidence les variations de quantité de marchandises en fonction des saisons pour un type de marchandise. Il est possible de changer entre les données d’entrée et de sortie (in/out)."
+    ],
+    "/ports/passengers/in": [
+        "Cruise passengers : passagers débarquant d’un navire de croisière, Ferry passengers : passagers débarquant d’un ferry"
+    ],
+    "/ports/passengers/out": [
+        "Cruise passengers : passagers embarquant sur un navire de croisière, Ferry passengers : passagers embarquant sur un ferry"
+    ],
+    "/ports/passengers/evolution": [
+        "Ce graphique met en évidence les variations de quantité de passagers en fonction des saisons. Il est possible de changer entre les données d’entrée et de sortie (in/out)"
+    ],
+    "/ports/arrivals": [
+        "Traitement et indicateurs statistiques des données de retard des navires au port de Marseille-Fos : retard au départ : retard/avance d’un navire lorsqu’il quitte le port, retard à l’arrivée : retard/avance d’un navire lorsqu’il arrive au port. Causes principales probables : Congestion lors des opérations de manutention (chargement/déchargement des navires dans un port) et de stockage, Tempêtes et intempéries"
+    ],
+    "/ports/forecast": [
+        "Un algorithme de machine learning entraîné sur les données de retard couplées aux conditions météorologiques permet de proposer une approximation grossière du temps de retard d’un navire en fonction des conditions."
+    ],
+    "/conteneurs": [
+        "Données fournies par Traxens : “smart conteneurs” possédant des capteurs permettant de détecter des 'évenements anormaux' tel que l'ouverture de porte, un choc ou encore une variation de température durant le transport"
+    ],
+    "/conteneurs/details": [
+        "Cette carte interactive vous permet de rechercher les évènement liés à un conteneur en particulier de les géolocaliser sur la carte et d'étudier le détails de chacun d'entre eux"
+    ]
+}

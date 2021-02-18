@@ -1,0 +1,71 @@
+#menu-left {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    position: fixed;
+    z-index: 2147483646;
+    top: 0;
+    left: 0;
+    transform: translate(-100vw);
+    transition: transform .5s ease-in-out;
+    background-color: #f8f9fa;
+}
+
+@media screen and (max-width: 576px) and (min-width: 0px) {
+    #menu-left {
+        width: 100vw
+    }
+}
+
+@media screen and (min-width:768px)and (max-width: 1200px) {
+    #menu-left {
+        width: 66vw
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #menu-left {
+        width: 33vw
+    }
+}
+
+#siteZone {
+    cursor: pointer;
+}
+
+#menu-left .menu-list .menu-list-item {
+    color: #000;
+}
+
+#menu-left .menu-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 2rem;
+}
+
+#menu-left .menu-list .menu-list-item {
+    padding: 1.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+#menu-left .menu-list .menu-list-item:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#menu-left.active {
+    transform: translate(0);
+}

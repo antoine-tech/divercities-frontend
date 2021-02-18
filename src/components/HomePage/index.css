@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+h1 {
+    font-family: 'Maven Pro', sans-serif;
+    mix-blend-mode: multiply;
+}
+
+#one, #two, #three {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 4rem;
+}
+
+#one{
+    z-index: 0;
+    background-image: url(./img/abstract_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#two{
+    z-index: 100;
+    background-image: url(./img/port_de_marseille.jpg);
+    mix-blend-mode: screen;
+    background-position: center;
+}
+
+#three{
+    z-index: 200;
+    background-color: rgb(248, 249, 250);
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:800px)
+{
+    .font-lg{
+        font-size: 4rem;
+    }
+    #boatIcon{
+        height: 10rem;
+        width:10rem
+    }
+}
+
+@media screen and (min-width:800px)
+{
+    .font-lg{
+        font-size: 8rem;
+    }
+    #boatIcon{
+        height: 20rem;
+        width:20rem
+    }
+}

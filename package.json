@@ -1,0 +1,83 @@
+{
+  "name": "divercities-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@data-ui/histogram": "0.0.84",
+    "@deck.gl/aggregation-layers": "^8.4.2",
+    "@deck.gl/layers": "^8.4.2",
+    "@deck.gl/react": "^8.4.2",
+    "@nivo/bar": "^0.67.0",
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "@nivo/pie": "^0.67.0",
+    "@nivo/sankey": "^0.67.0",
+    "@nivo/sunburst": "^0.67.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.3.0",
+    "d3-scale": "^3.2.3",
+    "date-fns": "^2.17.0",
+    "deck.gl": "^8.4.2",
+    "jsonfile": "^6.1.0",
+    "mapbox-gl": "^2.1.0",
+    "plotly.js": "^1.58.4",
+    "query-string": "^6.13.8",
+    "rc-slider": "^9.7.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-icons": "^1.3.0",
+    "react-dom": "^17.0.1",
+    "react-dotenv": "^0.1.3",
+    "react-map-gl": "^6.1.5",
+    "react-palm": "^3.3.7",
+    "react-plotly.js": "^2.5.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-thermometer-chart": "^1.0.2",
+    "redux": "^4.0.5",
+    "serve": "^11.3.2",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "worker-loader": "^3.0.7"
+  },
+  "scripts": {
+    "dev": "react-dotenv && react-scripts --max_old_space_size=4096 start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "MAPBOX_TOKEN"
+    ]
+  }
+}
