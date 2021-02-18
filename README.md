@@ -2,7 +2,9 @@
 
 A React JS user interface for the SMARTPORT Marseille Hackaviz challenge
 
-Cet application intéragit avec l'API disponible <https://github.com/antoine-tech/divercities-api> pour recupérer les informations en base de donnée
+Cette application intéragit avec l'API disponible <https://github.com/antoine-tech/divercities-api> pour recupérer les informations en base de donnée
+
+l'application déployée est disponible à l'adresse suivante <https://hackaviz-frontend.herokuapp.com/>
 
 ## Présentation
 
@@ -18,6 +20,8 @@ Ils pourront découvrir les environnements logistique et énergétique liés au 
 ## Quick Start
 
 Pour lancer le serveur en local vous devez disposez de node js et npm installé sur votre machine
+
+Vous devez également vous procurer un token d'accès aux services de MAPBOX pour l'affichage des cartes <https://docs.mapbox.com/help/how-mapbox-works/access-tokens/>
 
 1) Cloner le repertoire Github <https://github.com/antoine-tech/divercities-frontend>
 
@@ -36,7 +40,19 @@ cd divercities-frontend
 npm i
 ```
 
-4) Lancer le serveur en developpement
+4) crér un fichier .env à la racine du dossier
+
+```
+touch .env
+```
+
+5) Ajouter la variable d'environnement suivante pour référencé votre token MAPBOX dans le fichier .env
+
+```
+MAPBOX_TOKEN="votre_token_mapbox"
+```
+
+5) Lancer le serveur en developpement
 
 ```
 npm run dev
